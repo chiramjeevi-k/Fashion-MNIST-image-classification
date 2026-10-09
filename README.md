@@ -69,6 +69,7 @@ Dataset source: [Fashion MNIST — GitHub](https://github.com/zalandoresearch/fa
 Fashion-MNIST/
 ├── app/
 │   ├── trained_model/
+│   │   └── trained_fashion_mnist_model.h5
 │   ├── main.py
 │   ├── Dockerfile
 │   └── requirements.txt
@@ -76,8 +77,13 @@ Fashion-MNIST/
 │   └── Fashion_MNIST_model_training.ipynb
 ├── test_images/
 │   ├── fashion_mnist_1.png
-│   ├── fashion_mnist_2.png
-│   └── fashion_mnist_3.png
+│   ├── fashion_mnist_2.jpg
+│   ├── fashion_mnist_3.png
+│   └── more_samples/
+│       ├── T-shirt_top_1.png
+│       ├── Trouser_1.png
+│       └── ... (additional sample images)
+├── generate_test_images.py
 ├── .gitignore
 └── README.md
 ```

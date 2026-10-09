@@ -51,7 +51,6 @@ The project uses the Fashion MNIST dataset, which contains 70,000 grayscale imag
 | 8 | Bag |
 | 9 | Ankle boot |
 
-Dataset source: [Fashion MNIST — GitHub](https://github.com/zalandoresearch/fashion-mnist)
 
 ## Project Workflow
 
